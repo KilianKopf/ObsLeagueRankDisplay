@@ -1,0 +1,17 @@
+{
+  "name": "rankedwatchobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leagueapiwrapper": "^2.3.1",
+    "pkg": "^4.4.9",
+    "request": "^2.88.2"
+  }
+}

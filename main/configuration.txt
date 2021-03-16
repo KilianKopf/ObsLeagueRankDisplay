@@ -1,0 +1,5 @@
+{
+"summonerName": "SectionHD",
+"region": "euw1",
+"interval_sec": "10"
+}

@@ -2,7 +2,7 @@ const LeagueofLegends = require('leagueapiwrapper');
 const Fs = require('fs');
 
 
-const API_KEY = 'RGAPI-c9adf2bc-27be-4707-ad6f-b05d232e01a5'
+const API_KEY = 'RGAPI-xxxx'
 
 
 if(!Fs.existsSync('configuration.txt')){

@@ -1,5 +1,5 @@
 {
-"summonerName": "SectionHD",
+"summonerName": "example_name",
 "region": "euw1",
 "interval_sec": "10"
 }

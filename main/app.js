@@ -1,9 +1,6 @@
 const LeagueofLegends = require('leagueapiwrapper');
+const api_key = require('./api_key');
 const Fs = require('fs');
-
-
-const API_KEY = 'RGAPI-xxxx'
-
 
 if(!Fs.existsSync('configuration.txt')){
     Fs.writeFileSync('configuration.txt',
@@ -27,7 +24,7 @@ else {
     let interval$ = config$['interval_sec']
 
     function fnProcess() {
-        let League = new LeagueofLegends(API_KEY, platform$);
+        let League = new LeagueofLegends(api_key, platform$);
         League.getSummonerByName(player$).then(function (acc$) {
             League.getLeagueRanking(acc$).then(function (data$) {
                 let tier$ = data$[0]['tier'];
